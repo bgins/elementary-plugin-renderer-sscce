@@ -1,0 +1,21 @@
+{
+  "name": "elementary-plugin-renderer-sscce",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev --host 127.0.0.1 --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^1.0.0",
+    "@sveltejs/kit": "^1.0.0",
+    "svelte": "^3.54.0",
+    "vite": "^4.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@elemaudio/core": "^1.0.8",
+    "@elemaudio/plugin-renderer": "1.0.18"
+  }
+}
